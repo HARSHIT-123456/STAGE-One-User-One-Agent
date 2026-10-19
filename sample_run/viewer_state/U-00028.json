@@ -1,0 +1,37 @@
+{
+  "user_id": "U-00028",
+  "profile_snapshot": {
+    "user_id": "U-00028",
+    "signup_at": "2025-05-24T17:36:03.647Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d3",
+    "preferred_language": "en",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "ios",
+    "updated_at": "2026-09-29T02:46:45.504Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T11:57:01.494000Z",
+    "started_at": "2026-10-01T11:57:01.494000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "lala-gunesa-d5"
+    ]
+  },
+  "decision_ids": [
+    "D-001500"
+  ],
+  "action_ids": [
+    "A-000406"
+  ],
+  "last_decision_at": "2026-10-01T11:57:01.494000Z"
+}

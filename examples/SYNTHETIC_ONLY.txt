@@ -1,0 +1,1 @@
+No real STAGE data was included in this starter. The --demo output is synthetic and is not assignment evidence.

@@ -1,0 +1,39 @@
+{
+  "user_id": "U-01885",
+  "profile_snapshot": {
+    "user_id": "U-01885",
+    "signup_at": "2024-12-07T13:34:33.640Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-16T23:02:02.607Z",
+    "plan_ends_at": "2026-10-16T23:02:02.607Z",
+    "preferred_dialect": "d4",
+    "preferred_language": "en",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T03:14:06.574Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T06:37:32.685000Z",
+    "started_at": "2026-10-01T06:37:32.685000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "nisu-sapapa-d4",
+      "bagi-baya-d4",
+      "baba-yarachu-d4"
+    ]
+  },
+  "decision_ids": [
+    "D-000811"
+  ],
+  "action_ids": [
+    "A-000207"
+  ],
+  "last_decision_at": "2026-10-01T06:37:32.685000Z"
+}

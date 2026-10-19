@@ -1,0 +1,38 @@
+{
+  "user_id": "U-03547",
+  "profile_snapshot": {
+    "user_id": "U-03547",
+    "signup_at": "2025-05-28T20:39:43.896Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-22T17:21:52.732Z",
+    "plan_ends_at": "2026-10-22T17:21:52.732Z",
+    "preferred_dialect": "d3",
+    "preferred_language": "en",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T12:41:39.914Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T11:44:51.659000Z",
+    "started_at": "2026-10-01T11:44:51.659000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "radi-d4",
+      "tiko-subava-d4"
+    ]
+  },
+  "decision_ids": [
+    "D-000028",
+    "D-001456",
+    "D-001457"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T11:44:53.685000Z"
+}

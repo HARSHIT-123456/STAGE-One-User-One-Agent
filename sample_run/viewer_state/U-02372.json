@@ -1,0 +1,36 @@
+{
+  "user_id": "U-02372",
+  "profile_snapshot": {
+    "user_id": "U-02372",
+    "signup_at": "2025-02-06T09:12:16.938Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-28T03:57:11.966Z",
+    "plan_ends_at": "2026-10-28T03:57:11.966Z",
+    "preferred_dialect": "d2",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T16:05:45.726Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T10:58:02.235000Z",
+    "started_at": "2026-10-01T10:58:02.235000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "bhaja-moguba-d2",
+      "dhapipa-gini-d2"
+    ]
+  },
+  "decision_ids": [
+    "D-001376"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T10:58:02.235000Z"
+}

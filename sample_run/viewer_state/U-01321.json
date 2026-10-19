@@ -1,0 +1,36 @@
+{
+  "user_id": "U-01321",
+  "profile_snapshot": {
+    "user_id": "U-01321",
+    "signup_at": "2026-09-19T18:55:33.812Z",
+    "subscription_status": "active",
+    "plan_started_at": "",
+    "plan_ends_at": "2026-10-18T23:15:24.191Z",
+    "preferred_dialect": "d6",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T16:59:48.981Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T13:34:37.727000Z",
+    "started_at": "2026-10-01T13:34:37.727000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "jamo-hasa-d5",
+      "gubava-gihaya-d5"
+    ]
+  },
+  "decision_ids": [
+    "D-001716"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T13:34:37.727000Z"
+}

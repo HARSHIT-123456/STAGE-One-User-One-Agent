@@ -1,0 +1,22 @@
+{
+  "user_id": "U-03692",
+  "profile_snapshot": {},
+  "active_goal": {
+    "id": "G03",
+    "name": "second_day_return_2d",
+    "deadline": "2026-10-03T14:56:17.080000Z",
+    "started_at": "2026-10-01T14:56:17.080000Z",
+    "success_signal": "play_started",
+    "window_hours": 48,
+    "eligibility_reason": "Signup within 2 days; corrected success signal uses play_started, not app_open.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": []
+  },
+  "decision_ids": [
+    "D-002001"
+  ],
+  "action_ids": [
+    "A-000546"
+  ],
+  "last_decision_at": "2026-10-01T14:56:17.080000Z"
+}

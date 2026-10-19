@@ -1,0 +1,36 @@
+{
+  "user_id": "U-03625",
+  "profile_snapshot": {
+    "user_id": "U-03625",
+    "signup_at": "2025-08-20T20:01:37.190Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-22T02:37:23.627Z",
+    "plan_ends_at": "2026-10-22T02:37:23.627Z",
+    "preferred_dialect": "d1",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T00:54:45.397Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T10:34:30.220000Z",
+    "started_at": "2026-10-01T10:34:30.220000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "pate-batisa-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-001310",
+    "D-002427"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T16:16:01.901000Z"
+}

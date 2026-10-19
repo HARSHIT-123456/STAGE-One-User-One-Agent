@@ -1,0 +1,38 @@
+{
+  "user_id": "U-00548",
+  "profile_snapshot": {
+    "user_id": "U-00548",
+    "signup_at": "2025-10-22T23:15:17.061Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d5",
+    "preferred_language": "hin",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T09:08:00.528Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-03T18:36:53.265000Z",
+    "started_at": "2026-09-30T18:36:53.265000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "jamo-hasa-d5"
+    ]
+  },
+  "decision_ids": [
+    "D-000002",
+    "D-000463"
+  ],
+  "action_ids": [
+    "A-000002"
+  ],
+  "last_decision_at": "2026-10-01T04:46:16.698000Z"
+}

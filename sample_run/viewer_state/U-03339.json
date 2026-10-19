@@ -1,0 +1,40 @@
+{
+  "user_id": "U-03339",
+  "profile_snapshot": {
+    "user_id": "U-03339",
+    "signup_at": "2025-02-05T14:50:10.286Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-14T05:34:38.903Z",
+    "plan_ends_at": "2026-10-14T05:34:38.903Z",
+    "preferred_dialect": "d1",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-28T23:06:34.590Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T14:54:11.650000Z",
+    "started_at": "2026-10-01T14:54:11.650000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "yalo-nipa-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-001969",
+    "D-001970",
+    "D-001996",
+    "D-002209"
+  ],
+  "action_ids": [
+    "A-000543"
+  ],
+  "last_decision_at": "2026-10-01T15:15:33.960000Z"
+}

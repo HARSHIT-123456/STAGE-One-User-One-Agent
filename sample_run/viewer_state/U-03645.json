@@ -1,0 +1,42 @@
+{
+  "user_id": "U-03645",
+  "profile_snapshot": {
+    "user_id": "U-03645",
+    "signup_at": "2026-08-16T03:14:23.933Z",
+    "subscription_status": "lapsed",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d4",
+    "preferred_language": "en",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T09:41:53.507Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T06:16:02.994000Z",
+    "started_at": "2026-10-01T06:16:02.994000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "nisu-sapapa-d4",
+      "koha-kagite-d4",
+      "baguti-gida-d4",
+      "tidha-dakachu-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-000774",
+    "D-001228",
+    "D-002598"
+  ],
+  "action_ids": [
+    "A-000194"
+  ],
+  "last_decision_at": "2026-10-01T17:06:34.463000Z"
+}

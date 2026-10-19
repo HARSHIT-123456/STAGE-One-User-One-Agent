@@ -1,0 +1,38 @@
+{
+  "user_id": "U-01382",
+  "profile_snapshot": {
+    "user_id": "U-01382",
+    "signup_at": "2026-03-14T21:46:44.445Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d2",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T08:24:55.349Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T15:29:48.702000Z",
+    "started_at": "2026-10-01T15:29:48.702000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "molo-d2"
+    ]
+  },
+  "decision_ids": [
+    "D-000251",
+    "D-002269"
+  ],
+  "action_ids": [
+    "A-000617"
+  ],
+  "last_decision_at": "2026-10-01T15:29:48.702000Z"
+}

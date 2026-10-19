@@ -1,0 +1,36 @@
+{
+  "user_id": "U-04810",
+  "profile_snapshot": {
+    "user_id": "U-04810",
+    "signup_at": "2025-11-23T20:51:12.351Z",
+    "subscription_status": "lapsed",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d3",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-28T23:42:45.489Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T13:46:34.983000Z",
+    "started_at": "2026-10-01T13:46:34.983000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "digi-mone-d3",
+      "ririgi-d3"
+    ]
+  },
+  "decision_ids": [
+    "D-001758"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T13:46:34.983000Z"
+}

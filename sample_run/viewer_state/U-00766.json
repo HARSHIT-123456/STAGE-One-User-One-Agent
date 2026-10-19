@@ -1,0 +1,25 @@
+{
+  "user_id": "U-00766",
+  "profile_snapshot": {},
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T06:33:24.502000Z",
+    "started_at": "2026-10-01T06:33:24.502000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "yatite-roloda-d3",
+      "haja-d3",
+      "pima-pana-d3"
+    ]
+  },
+  "decision_ids": [
+    "D-000809",
+    "D-001992"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T14:53:24.397000Z"
+}

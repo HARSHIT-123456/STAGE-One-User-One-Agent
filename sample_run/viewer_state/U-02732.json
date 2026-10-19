@@ -1,0 +1,35 @@
+{
+  "user_id": "U-02732",
+  "profile_snapshot": {
+    "user_id": "U-02732",
+    "signup_at": "2025-03-31T15:30:54.589Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-07T10:57:40.472Z",
+    "plan_ends_at": "2026-10-07T10:57:40.472Z",
+    "preferred_dialect": "d2",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T10:14:32.234Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T14:42:53.994000Z",
+    "started_at": "2026-10-01T14:42:53.994000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "guka-kosusa-d2"
+    ]
+  },
+  "decision_ids": [
+    "D-001960"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T14:42:53.994000Z"
+}

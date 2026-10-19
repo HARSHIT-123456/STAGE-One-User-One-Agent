@@ -1,0 +1,37 @@
+{
+  "user_id": "U-02703",
+  "profile_snapshot": {
+    "user_id": "U-02703",
+    "signup_at": "2025-04-21T05:45:39.875Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-24T07:15:59.391Z",
+    "plan_ends_at": "2026-10-24T07:15:59.391Z",
+    "preferred_dialect": "d1",
+    "preferred_language": "en",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T11:40:24.225Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T03:01:43.009000Z",
+    "started_at": "2026-10-01T03:01:43.009000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "hate-d1",
+      "hadi-sudha-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-000207",
+    "D-000603"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T04:58:44.980000Z"
+}

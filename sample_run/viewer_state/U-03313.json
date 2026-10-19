@@ -1,0 +1,37 @@
+{
+  "user_id": "U-03313",
+  "profile_snapshot": {
+    "user_id": "U-03313",
+    "signup_at": "2025-12-16T04:31:09.595Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-03T14:27:24.422Z",
+    "plan_ends_at": "2026-10-03T14:27:24.422Z",
+    "preferred_dialect": "d2",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-28T20:57:20.345Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T07:17:27.271000Z",
+    "started_at": "2026-10-01T07:17:27.271000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "guka-kosusa-d2",
+      "rigu-dhadi-d2"
+    ]
+  },
+  "decision_ids": [
+    "D-000894",
+    "D-000895"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T07:17:53.144000Z"
+}

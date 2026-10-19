@@ -1,0 +1,40 @@
+{
+  "user_id": "U-01412",
+  "profile_snapshot": {
+    "user_id": "U-01412",
+    "signup_at": "2025-10-12T15:56:15.371Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-14T02:27:54.349Z",
+    "plan_ends_at": "2026-10-14T02:27:54.349Z",
+    "preferred_dialect": "d3",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T01:31:56.603Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T14:11:17.434000Z",
+    "started_at": "2026-10-01T14:11:17.434000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "rasuya-moni-d6",
+      "loyate-d6"
+    ]
+  },
+  "decision_ids": [
+    "D-001838",
+    "D-002059",
+    "D-002060"
+  ],
+  "action_ids": [
+    "A-000495"
+  ],
+  "last_decision_at": "2026-10-01T15:02:39.056000Z"
+}

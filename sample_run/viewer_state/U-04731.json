@@ -1,0 +1,39 @@
+{
+  "user_id": "U-04731",
+  "profile_snapshot": {
+    "user_id": "U-04731",
+    "signup_at": "2024-12-08T01:23:48.675Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d4",
+    "preferred_language": "en",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "ios",
+    "updated_at": "2026-09-29T07:43:40.380Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T06:42:19.895000Z",
+    "started_at": "2026-10-01T06:42:19.895000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "baguti-gida-d4",
+      "mosamo-d4"
+    ]
+  },
+  "decision_ids": [
+    "D-000826",
+    "D-001813"
+  ],
+  "action_ids": [
+    "A-000214"
+  ],
+  "last_decision_at": "2026-10-01T14:02:26.365000Z"
+}

@@ -1,0 +1,38 @@
+{
+  "user_id": "U-04711",
+  "profile_snapshot": {
+    "user_id": "U-04711",
+    "signup_at": "2025-03-01T17:50:20.858Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-18T12:13:15.291Z",
+    "plan_ends_at": "2026-10-18T12:13:15.291Z",
+    "preferred_dialect": "d1",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T16:08:29.225Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T05:00:08.116000Z",
+    "started_at": "2026-10-01T05:00:08.116000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "hama-chudibha-d1",
+      "kogu-modhapa-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-000605"
+  ],
+  "action_ids": [
+    "A-000135"
+  ],
+  "last_decision_at": "2026-10-01T05:00:08.116000Z"
+}

@@ -1,0 +1,37 @@
+{
+  "user_id": "U-04826",
+  "profile_snapshot": {
+    "user_id": "U-04826",
+    "signup_at": "2026-07-29T16:41:00.153Z",
+    "subscription_status": "lapsed",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d6",
+    "preferred_language": "hin",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T04:41:50.799Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T02:18:56.968000Z",
+    "started_at": "2026-10-01T02:18:56.968000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "chupi-gugi-d6",
+      "rasuya-moni-d6",
+      "mopila-bani-d6"
+    ]
+  },
+  "decision_ids": [
+    "D-000156"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T02:18:56.968000Z"
+}

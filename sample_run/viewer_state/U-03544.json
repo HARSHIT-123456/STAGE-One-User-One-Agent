@@ -1,0 +1,38 @@
+{
+  "user_id": "U-03544",
+  "profile_snapshot": {
+    "user_id": "U-03544",
+    "signup_at": "2026-06-04T16:07:50.507Z",
+    "subscription_status": "lapsed",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d6",
+    "preferred_language": "hin",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T14:20:36.031Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T09:06:14.523000Z",
+    "started_at": "2026-10-01T09:06:14.523000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "bhaja-moguba-d2",
+      "guka-kosusa-d2"
+    ]
+  },
+  "decision_ids": [
+    "D-001140"
+  ],
+  "action_ids": [
+    "A-000318"
+  ],
+  "last_decision_at": "2026-10-01T09:06:14.523000Z"
+}

@@ -1,0 +1,38 @@
+{
+  "user_id": "U-04916",
+  "profile_snapshot": {
+    "user_id": "U-04916",
+    "signup_at": "2025-08-28T08:19:55.854Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d4",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T10:14:56.152Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T09:18:28.428000Z",
+    "started_at": "2026-10-01T09:18:28.428000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "gima-bhadaba-d1",
+      "hama-chudibha-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-001171",
+    "D-002690",
+    "D-002691"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T17:41:12.819000Z"
+}

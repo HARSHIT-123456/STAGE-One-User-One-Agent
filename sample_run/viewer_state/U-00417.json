@@ -1,0 +1,39 @@
+{
+  "user_id": "U-00417",
+  "profile_snapshot": {
+    "user_id": "U-00417",
+    "signup_at": "2026-08-26T14:34:15.104Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-03T00:00:12.235Z",
+    "plan_ends_at": "2026-10-03T00:00:12.235Z",
+    "preferred_dialect": "d3",
+    "preferred_language": "en",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T04:21:27.365Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-03T22:05:21.354000Z",
+    "started_at": "2026-09-30T22:05:21.354000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "jakasa-dapi-d3",
+      "haja-d3",
+      "yatite-roloda-d3"
+    ]
+  },
+  "decision_ids": [
+    "D-000053",
+    "D-000273",
+    "D-000802"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T06:31:28.360000Z"
+}

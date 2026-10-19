@@ -1,0 +1,35 @@
+{
+  "user_id": "U-00996",
+  "profile_snapshot": {
+    "user_id": "U-00996",
+    "signup_at": "2026-07-16T01:25:29.750Z",
+    "subscription_status": "lapsed",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d1",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T17:37:14.931Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G02",
+    "name": "first_full_episode_3d",
+    "deadline": "2026-10-04T15:46:34.049000Z",
+    "started_at": "2026-10-01T15:46:34.049000Z",
+    "success_signal": "episode_completed",
+    "window_hours": 72,
+    "eligibility_reason": "No observed episode_completed event in available history.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": []
+  },
+  "decision_ids": [
+    "D-000481",
+    "D-002324",
+    "D-002623"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T17:14:54.089000Z"
+}

@@ -1,0 +1,37 @@
+{
+  "user_id": "U-01931",
+  "profile_snapshot": {
+    "user_id": "U-01931",
+    "signup_at": "2026-05-01T22:58:53.292Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d1",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T16:23:21.608Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T15:01:03.668000Z",
+    "started_at": "2026-10-01T15:01:03.668000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "hama-chudibha-d1",
+      "hate-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-002035",
+    "D-002036"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T15:01:08.595000Z"
+}

@@ -1,0 +1,35 @@
+{
+  "user_id": "U-04068",
+  "profile_snapshot": {
+    "user_id": "U-04068",
+    "signup_at": "2026-04-15T07:01:02.766Z",
+    "subscription_status": "lapsed",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d2",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "ios",
+    "updated_at": "2026-09-28T22:06:18.479Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G06",
+    "name": "reactivate_lapsed_14d",
+    "deadline": "2026-10-15T06:06:02.824000Z",
+    "started_at": "2026-10-01T06:06:02.824000Z",
+    "success_signal": "purchase_completed",
+    "window_hours": 336,
+    "eligibility_reason": "Resolved subscription status is lapsed.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": []
+  },
+  "decision_ids": [
+    "D-000752"
+  ],
+  "action_ids": [
+    "A-000183"
+  ],
+  "last_decision_at": "2026-10-01T06:06:02.824000Z"
+}

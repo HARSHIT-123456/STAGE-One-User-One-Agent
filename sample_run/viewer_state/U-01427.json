@@ -1,0 +1,37 @@
+{
+  "user_id": "U-01427",
+  "profile_snapshot": {
+    "user_id": "U-01427",
+    "signup_at": "2025-07-25T10:48:09.001Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-21T21:23:53.021Z",
+    "plan_ends_at": "2026-10-21T21:23:53.021Z",
+    "preferred_dialect": "d2",
+    "preferred_language": "hin",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-28T22:04:49.523Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T02:52:30.761000Z",
+    "started_at": "2026-10-01T02:52:30.761000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "guka-kosusa-d2",
+      "yanagu-negiba-d2",
+      "molo-d2"
+    ]
+  },
+  "decision_ids": [
+    "D-000188"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T02:52:30.761000Z"
+}

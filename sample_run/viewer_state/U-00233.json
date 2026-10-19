@@ -1,0 +1,36 @@
+{
+  "user_id": "U-00233",
+  "profile_snapshot": {
+    "user_id": "U-00233",
+    "signup_at": "2026-03-25T06:21:36.606Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-17T18:14:44.871Z",
+    "plan_ends_at": "2026-10-17T18:14:44.871Z",
+    "preferred_dialect": "d7",
+    "preferred_language": "en",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T15:54:37.550Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T17:18:51.526000Z",
+    "started_at": "2026-10-01T17:18:51.526000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "dhapipa-gini-d2",
+      "tero-koja-d2"
+    ]
+  },
+  "decision_ids": [
+    "D-002638"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T17:18:51.526000Z"
+}

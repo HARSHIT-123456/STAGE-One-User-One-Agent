@@ -1,0 +1,38 @@
+{
+  "user_id": "U-00556",
+  "profile_snapshot": {
+    "user_id": "U-00556",
+    "signup_at": "2026-02-26T13:00:00.954Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d6",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T06:40:00.107Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T10:46:22.691000Z",
+    "started_at": "2026-10-01T10:46:22.691000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "rigu-dhadi-d2"
+    ]
+  },
+  "decision_ids": [
+    "D-001343",
+    "D-001344"
+  ],
+  "action_ids": [
+    "A-000372"
+  ],
+  "last_decision_at": "2026-10-01T10:46:28.301000Z"
+}

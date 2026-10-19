@@ -1,0 +1,36 @@
+{
+  "user_id": "U-04502",
+  "profile_snapshot": {
+    "user_id": "U-04502",
+    "signup_at": "2025-01-29T14:53:50.011Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-20T06:17:03.715Z",
+    "plan_ends_at": "2026-10-20T06:17:03.715Z",
+    "preferred_dialect": "d3",
+    "preferred_language": "hin",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T03:51:55.988Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T09:07:26.440000Z",
+    "started_at": "2026-10-01T09:07:26.440000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "yatite-roloda-d3",
+      "ririgi-d3"
+    ]
+  },
+  "decision_ids": [
+    "D-001144"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T09:07:26.440000Z"
+}

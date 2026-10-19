@@ -1,0 +1,38 @@
+{
+  "user_id": "U-02410",
+  "profile_snapshot": {
+    "user_id": "U-02410",
+    "signup_at": "2025-11-07T23:33:55.673Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-15T09:10:45.925Z",
+    "plan_ends_at": "2026-10-15T09:10:45.925Z",
+    "preferred_dialect": "d2",
+    "preferred_language": "hin",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T02:11:35.949Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T12:33:42.784000Z",
+    "started_at": "2026-10-01T12:33:42.784000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "nada-varoya-d2",
+      "guka-kosusa-d2"
+    ]
+  },
+  "decision_ids": [
+    "D-001575"
+  ],
+  "action_ids": [
+    "A-000432"
+  ],
+  "last_decision_at": "2026-10-01T12:33:42.784000Z"
+}

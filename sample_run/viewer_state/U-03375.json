@@ -1,0 +1,38 @@
+{
+  "user_id": "U-03375",
+  "profile_snapshot": {
+    "user_id": "U-03375",
+    "signup_at": "2025-05-04T01:32:44.728Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-12T15:59:52.709Z",
+    "plan_ends_at": "2026-10-12T15:59:52.709Z",
+    "preferred_dialect": "d5",
+    "preferred_language": "hin",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-28T22:16:35.069Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T15:21:06.862000Z",
+    "started_at": "2026-10-01T15:21:06.862000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "jamo-hasa-d5",
+      "kavadha-rilo-d5"
+    ]
+  },
+  "decision_ids": [
+    "D-002231"
+  ],
+  "action_ids": [
+    "A-000608"
+  ],
+  "last_decision_at": "2026-10-01T15:21:06.862000Z"
+}

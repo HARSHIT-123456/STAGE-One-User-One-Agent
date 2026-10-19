@@ -1,0 +1,37 @@
+{
+  "user_id": "U-01090",
+  "profile_snapshot": {
+    "user_id": "U-01090",
+    "signup_at": "2025-03-02T22:04:05.386Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-08T06:30:33.236Z",
+    "plan_ends_at": "2026-10-08T06:30:33.236Z",
+    "preferred_dialect": "d6",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T13:39:55.745Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T11:03:59.151000Z",
+    "started_at": "2026-10-01T11:03:59.151000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "diti-kochu-d5",
+      "dada-nitepi-d5"
+    ]
+  },
+  "decision_ids": [
+    "D-001385",
+    "D-001559"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T12:22:48.693000Z"
+}

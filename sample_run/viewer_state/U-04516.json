@@ -1,0 +1,35 @@
+{
+  "user_id": "U-04516",
+  "profile_snapshot": {
+    "user_id": "U-04516",
+    "signup_at": "2026-02-11T02:01:02.685Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-24T05:17:39.728Z",
+    "plan_ends_at": "2026-10-24T05:17:39.728Z",
+    "preferred_dialect": "d3",
+    "preferred_language": "hin",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T07:05:17.659Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T18:06:39.185000Z",
+    "started_at": "2026-10-01T18:06:39.185000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "yadha-kopa-d3"
+    ]
+  },
+  "decision_ids": [
+    "D-002736"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T18:06:39.185000Z"
+}

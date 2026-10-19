@@ -1,0 +1,40 @@
+{
+  "user_id": "U-00118",
+  "profile_snapshot": {
+    "user_id": "U-00118",
+    "signup_at": "2024-11-06T21:31:16.929Z",
+    "subscription_status": "lapsed",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d2",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-28T20:16:05.050Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T04:38:36.659000Z",
+    "started_at": "2026-10-01T04:38:36.659000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "gisu-d2",
+      "molo-d2",
+      "dhapipa-gini-d2"
+    ]
+  },
+  "decision_ids": [
+    "D-000348",
+    "D-000360"
+  ],
+  "action_ids": [
+    "A-000123"
+  ],
+  "last_decision_at": "2026-10-01T04:43:27.772000Z"
+}

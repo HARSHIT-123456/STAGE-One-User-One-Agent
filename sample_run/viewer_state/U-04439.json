@@ -1,0 +1,35 @@
+{
+  "user_id": "U-04439",
+  "profile_snapshot": {
+    "user_id": "U-04439",
+    "signup_at": "2025-07-14T06:01:03.860Z",
+    "subscription_status": "active",
+    "plan_started_at": "",
+    "plan_ends_at": "2026-10-02T09:40:01.821Z",
+    "preferred_dialect": "d1",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T13:05:37.599Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G08",
+    "name": "try_new_release_7d",
+    "deadline": "2026-10-08T14:52:24.587000Z",
+    "started_at": "2026-10-01T14:52:24.587000Z",
+    "success_signal": "play_started",
+    "window_hours": 168,
+    "eligibility_reason": "Active subscriber; recent releases exist in catalogue.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": []
+  },
+  "decision_ids": [
+    "D-001987"
+  ],
+  "action_ids": [
+    "A-000540"
+  ],
+  "last_decision_at": "2026-10-01T14:52:24.587000Z"
+}

@@ -1,0 +1,41 @@
+{
+  "user_id": "U-03024",
+  "profile_snapshot": {
+    "user_id": "U-03024",
+    "signup_at": "2026-07-09T10:10:34.259Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d4",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-28T22:58:35.064Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T04:55:07.876000Z",
+    "started_at": "2026-10-01T04:55:07.876000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "baguti-gida-d4"
+    ]
+  },
+  "decision_ids": [
+    "D-000594",
+    "D-001857",
+    "D-002181",
+    "D-002246",
+    "D-002428"
+  ],
+  "action_ids": [
+    "A-000132"
+  ],
+  "last_decision_at": "2026-10-01T16:16:24.932000Z"
+}

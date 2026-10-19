@@ -1,0 +1,39 @@
+{
+  "user_id": "U-00461",
+  "profile_snapshot": {
+    "user_id": "U-00461",
+    "signup_at": "2024-10-31T13:04:28.598Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-27T05:54:16.358Z",
+    "plan_ends_at": "2026-10-27T05:54:16.358Z",
+    "preferred_dialect": "d1",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T15:40:50.243Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T02:01:49.817000Z",
+    "started_at": "2026-10-01T02:01:49.817000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "jamo-hasa-d5",
+      "sakopi-d5"
+    ]
+  },
+  "decision_ids": [
+    "D-000141",
+    "D-001204"
+  ],
+  "action_ids": [
+    "A-000053"
+  ],
+  "last_decision_at": "2026-10-01T09:32:20.370000Z"
+}

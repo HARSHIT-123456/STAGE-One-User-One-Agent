@@ -1,0 +1,37 @@
+{
+  "user_id": "U-01087",
+  "profile_snapshot": {
+    "user_id": "U-01087",
+    "signup_at": "2026-04-27T17:07:44.253Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-27T21:57:14.321Z",
+    "plan_ends_at": "2026-10-27T21:57:14.321Z",
+    "preferred_dialect": "d5",
+    "preferred_language": "en",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "ios",
+    "updated_at": "2026-09-29T14:57:24.602Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T10:09:22.970000Z",
+    "started_at": "2026-10-01T10:09:22.970000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "nigi-salo-d1",
+      "hama-chudibha-d1",
+      "bhaja-moguba-d2"
+    ]
+  },
+  "decision_ids": [
+    "D-001272"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T10:09:22.970000Z"
+}

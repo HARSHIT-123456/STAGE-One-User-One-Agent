@@ -1,0 +1,40 @@
+{
+  "user_id": "U-02110",
+  "profile_snapshot": {
+    "user_id": "U-02110",
+    "signup_at": "2026-04-24T09:59:40.481Z",
+    "subscription_status": "active",
+    "plan_started_at": "",
+    "plan_ends_at": "2026-10-06T20:33:55.366Z",
+    "preferred_dialect": "d3",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T02:36:49.276Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T16:19:27.173000Z",
+    "started_at": "2026-10-01T16:19:27.173000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "pate-kari-d3",
+      "ririgi-d3",
+      "yatite-roloda-d3",
+      "lomobha-moni-d3"
+    ]
+  },
+  "decision_ids": [
+    "D-002435"
+  ],
+  "action_ids": [
+    "A-000655"
+  ],
+  "last_decision_at": "2026-10-01T16:19:27.173000Z"
+}

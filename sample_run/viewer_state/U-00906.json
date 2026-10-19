@@ -1,0 +1,36 @@
+{
+  "user_id": "U-00906",
+  "profile_snapshot": {
+    "user_id": "U-00906",
+    "signup_at": "2026-09-15T11:32:53.061Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d4",
+    "preferred_language": "en",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T03:53:23.894Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T15:21:03.487000Z",
+    "started_at": "2026-10-01T15:21:03.487000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "yane-tegi-d3",
+      "haja-d3"
+    ]
+  },
+  "decision_ids": [
+    "D-002230"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T15:21:03.487000Z"
+}

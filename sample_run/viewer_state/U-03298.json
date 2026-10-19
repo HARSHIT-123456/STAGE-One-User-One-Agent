@@ -1,0 +1,41 @@
+{
+  "user_id": "U-03298",
+  "profile_snapshot": {
+    "user_id": "U-03298",
+    "signup_at": "2025-09-30T10:21:22.373Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-23T06:29:32.780Z",
+    "plan_ends_at": "2026-10-23T06:29:32.780Z",
+    "preferred_dialect": "d2",
+    "preferred_language": "en",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T01:48:10.311Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-03T23:38:20.154000Z",
+    "started_at": "2026-09-30T23:38:20.154000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "bala-naja-d2",
+      "guka-kosusa-d2"
+    ]
+  },
+  "decision_ids": [
+    "D-000065",
+    "D-000066",
+    "D-000912",
+    "D-000913"
+  ],
+  "action_ids": [
+    "A-000025"
+  ],
+  "last_decision_at": "2026-10-01T07:25:30.489000Z"
+}

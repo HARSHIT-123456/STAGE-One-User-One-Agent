@@ -1,0 +1,38 @@
+{
+  "user_id": "U-01327",
+  "profile_snapshot": {
+    "user_id": "U-01327",
+    "signup_at": "2026-08-11T01:27:26.899Z",
+    "subscription_status": "active",
+    "plan_started_at": "",
+    "plan_ends_at": "2026-10-21T23:32:48.584Z",
+    "preferred_dialect": "d6",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T16:17:18.332Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T10:37:03.772000Z",
+    "started_at": "2026-10-01T10:37:03.772000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "bagugu-gigupi-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-001319",
+    "D-001882"
+  ],
+  "action_ids": [
+    "A-000361"
+  ],
+  "last_decision_at": "2026-10-01T14:22:08.756000Z"
+}

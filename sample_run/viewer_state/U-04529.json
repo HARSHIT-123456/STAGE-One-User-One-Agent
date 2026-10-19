@@ -1,0 +1,23 @@
+{
+  "user_id": "U-04529",
+  "profile_snapshot": {},
+  "active_goal": {
+    "id": "G01",
+    "name": "first_play_24h",
+    "deadline": "2026-10-02T16:29:53.229000Z",
+    "started_at": "2026-10-01T16:29:53.229000Z",
+    "success_signal": "play_started",
+    "window_hours": 24,
+    "eligibility_reason": "New signup within 7 days and no observed play_started event.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": []
+  },
+  "decision_ids": [
+    "D-002471",
+    "D-002472"
+  ],
+  "action_ids": [
+    "A-000663"
+  ],
+  "last_decision_at": "2026-10-01T16:29:56.387000Z"
+}

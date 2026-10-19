@@ -1,0 +1,22 @@
+{
+  "method": "intention-to-treat among viewers assigned a measurable goal; all assigned viewers retained in their randomized arm, including no-action viewers",
+  "agent": {
+    "n": 758,
+    "succeeded": 64,
+    "success_rate": 0.08443271767810026,
+    "inconclusive": 0
+  },
+  "holdout": {
+    "n": 746,
+    "succeeded": 56,
+    "success_rate": 0.07506702412868632,
+    "inconclusive": 0
+  },
+  "risk_difference": 0.00936569354941394,
+  "risk_difference_percentage_points": 0.9365693549413939,
+  "approx_95pct_ci": [
+    -0.018008167055331377,
+    0.036739554154159255
+  ],
+  "caveat": "This replay is one synthetic simulator run and only goal-assigned viewers are in this goal-specific estimate. Do not interpret as a production causal effect; inspect simulator policy problems and assignment balance."
+}

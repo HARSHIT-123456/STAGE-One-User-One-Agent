@@ -1,0 +1,40 @@
+{
+  "user_id": "U-04542",
+  "profile_snapshot": {
+    "user_id": "U-04542",
+    "signup_at": "2024-10-16T01:55:55.043Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d5",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T09:10:46.308Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T03:47:25.777000Z",
+    "started_at": "2026-10-01T03:47:25.777000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "kavadha-rilo-d5"
+    ]
+  },
+  "decision_ids": [
+    "D-000274",
+    "D-000814",
+    "D-001802",
+    "D-002536"
+  ],
+  "action_ids": [
+    "A-000098"
+  ],
+  "last_decision_at": "2026-10-01T16:47:45.225000Z"
+}

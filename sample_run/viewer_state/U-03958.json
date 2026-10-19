@@ -1,0 +1,36 @@
+{
+  "user_id": "U-03958",
+  "profile_snapshot": {
+    "user_id": "U-03958",
+    "signup_at": "2025-04-26T18:30:08.969Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d1",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T09:12:27.946Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T08:02:29.265000Z",
+    "started_at": "2026-10-01T08:02:29.265000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "lomobha-moni-d3"
+    ]
+  },
+  "decision_ids": [
+    "D-000998",
+    "D-001003"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T08:03:35.829000Z"
+}

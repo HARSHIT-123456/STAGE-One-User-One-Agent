@@ -1,0 +1,38 @@
+{
+  "user_id": "U-03870",
+  "profile_snapshot": {
+    "user_id": "U-03870",
+    "signup_at": "2025-06-11T20:54:34.566Z",
+    "subscription_status": "active",
+    "plan_started_at": "",
+    "plan_ends_at": "2026-10-28T13:25:57.843Z",
+    "preferred_dialect": "d5",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T10:16:28.951Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T07:27:41.218000Z",
+    "started_at": "2026-10-01T07:27:41.218000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "gubava-gihaya-d5"
+    ]
+  },
+  "decision_ids": [
+    "D-000919",
+    "D-001225"
+  ],
+  "action_ids": [
+    "A-000244"
+  ],
+  "last_decision_at": "2026-10-01T09:42:34.018000Z"
+}

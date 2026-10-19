@@ -1,0 +1,36 @@
+{
+  "user_id": "U-03954",
+  "profile_snapshot": {
+    "user_id": "U-03954",
+    "signup_at": "2026-05-17T15:49:39.541Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-06T07:06:50.023Z",
+    "plan_ends_at": "2026-10-06T07:06:50.023Z",
+    "preferred_dialect": "d5",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "ios",
+    "updated_at": "2026-09-29T12:47:02.976Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-03T23:31:46.382000Z",
+    "started_at": "2026-09-30T23:31:46.382000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "kova-sako-d5"
+    ]
+  },
+  "decision_ids": [
+    "D-000064",
+    "D-001445"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T11:38:38.885000Z"
+}

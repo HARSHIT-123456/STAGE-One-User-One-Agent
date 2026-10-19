@@ -1,0 +1,36 @@
+{
+  "user_id": "U-03656",
+  "profile_snapshot": {
+    "user_id": "U-03656",
+    "signup_at": "2026-07-18T01:20:06.930Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-09T14:30:43.735Z",
+    "plan_ends_at": "2026-10-09T14:30:43.735Z",
+    "preferred_dialect": "d4",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-28T19:31:38.710Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T15:03:53.799000Z",
+    "started_at": "2026-10-01T15:03:53.799000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "koha-kagite-d4",
+      "tegu-kote-d4"
+    ]
+  },
+  "decision_ids": [
+    "D-002080"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T15:03:53.799000Z"
+}

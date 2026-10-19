@@ -1,0 +1,37 @@
+{
+  "user_id": "U-00441",
+  "profile_snapshot": {
+    "user_id": "U-00441",
+    "signup_at": "2026-01-29T15:52:51.652Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-18T21:34:57.585Z",
+    "plan_ends_at": "2026-10-18T21:34:57.585Z",
+    "preferred_dialect": "d5",
+    "preferred_language": "en",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-28T22:43:22.551Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T05:16:40.715000Z",
+    "started_at": "2026-10-01T05:16:40.715000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "kone-dhapa-d5"
+    ]
+  },
+  "decision_ids": [
+    "D-000654"
+  ],
+  "action_ids": [
+    "A-000153"
+  ],
+  "last_decision_at": "2026-10-01T05:16:40.715000Z"
+}

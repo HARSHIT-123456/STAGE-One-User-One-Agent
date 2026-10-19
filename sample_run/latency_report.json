@@ -1,0 +1,29 @@
+{
+  "decision_count": 2769,
+  "trigger_count": 2769,
+  "duplicate_triggers_dropped": 90,
+  "published_actions": 715,
+  "agent_arm_users": 2513,
+  "holdout_users": 2487,
+  "max_processing_ms": 11,
+  "p95_processing_ms": 3,
+  "within_60_seconds": true,
+  "model_fault_triggers": 5,
+  "control_dependency_windows": [
+    {
+      "dependency": "model_provider",
+      "type": "dependency_unavailable",
+      "start": "2026-10-01T10:35:00.000Z",
+      "until": "2026-10-01T10:42:00.000Z",
+      "detail": "every model call fails with HTTP 503"
+    },
+    {
+      "dependency": "user_data_store",
+      "type": "dependency_degraded",
+      "start": "2026-10-01T13:10:00.000Z",
+      "until": "2026-10-01T13:17:00.000Z",
+      "detail": "p95 read latency 8 s and 20% of reads time out"
+    }
+  ],
+  "note": "published_at includes measured local decision processing time; all action publication times are generated from trigger deliver_at."
+}

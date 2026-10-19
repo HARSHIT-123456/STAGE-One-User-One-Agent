@@ -1,0 +1,47 @@
+{
+  "user_id": "U-04642",
+  "profile_snapshot": {
+    "user_id": "U-04642",
+    "signup_at": "2026-08-17T08:31:22.747Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-21T10:34:18.738Z",
+    "plan_ends_at": "2026-10-21T10:34:18.738Z",
+    "preferred_dialect": "d5",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T00:06:51.577Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T10:59:03.202000Z",
+    "started_at": "2026-10-01T10:59:03.202000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "kova-sako-d5",
+      "gima-bhadaba-d1",
+      "kopibha-niya-d1",
+      "bagugu-gigupi-d1",
+      "hate-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-001377",
+    "D-001614",
+    "D-001639",
+    "D-001918",
+    "D-001919",
+    "D-002086",
+    "D-002207"
+  ],
+  "action_ids": [
+    "A-000380"
+  ],
+  "last_decision_at": "2026-10-01T15:15:24.226000Z"
+}

@@ -1,0 +1,39 @@
+{
+  "user_id": "U-04394",
+  "profile_snapshot": {
+    "user_id": "U-04394",
+    "signup_at": "2025-06-22T19:48:06.955Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-27T11:59:37.966Z",
+    "plan_ends_at": "2026-10-27T11:59:37.966Z",
+    "preferred_dialect": "d4",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "ios",
+    "updated_at": "2026-09-29T06:41:03.136Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T13:25:06.189000Z",
+    "started_at": "2026-10-01T13:25:06.189000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "bagi-baya-d4",
+      "radi-d4"
+    ]
+  },
+  "decision_ids": [
+    "D-001690",
+    "D-002124"
+  ],
+  "action_ids": [
+    "A-000459"
+  ],
+  "last_decision_at": "2026-10-01T15:06:23.257000Z"
+}

@@ -1,0 +1,39 @@
+{
+  "user_id": "U-01108",
+  "profile_snapshot": {
+    "user_id": "U-01108",
+    "signup_at": "2025-11-18T06:07:50.361Z",
+    "subscription_status": "lapsed",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d4",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T07:16:45.539Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T14:04:51.528000Z",
+    "started_at": "2026-10-01T14:04:51.528000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "suko-nigu-d1",
+      "hama-chudibha-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-000376",
+    "D-001821"
+  ],
+  "action_ids": [
+    "A-000490"
+  ],
+  "last_decision_at": "2026-10-01T14:04:51.528000Z"
+}

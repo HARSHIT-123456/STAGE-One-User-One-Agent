@@ -1,0 +1,38 @@
+{
+  "user_id": "U-01468",
+  "profile_snapshot": {
+    "user_id": "U-01468",
+    "signup_at": "2025-01-26T00:13:29.020Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d5",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "ios",
+    "updated_at": "2026-09-29T04:42:10.623Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T05:07:44.260000Z",
+    "started_at": "2026-10-01T05:07:44.260000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "gubava-gihaya-d5",
+      "nina-d5"
+    ]
+  },
+  "decision_ids": [
+    "D-000628"
+  ],
+  "action_ids": [
+    "A-000144"
+  ],
+  "last_decision_at": "2026-10-01T05:07:44.260000Z"
+}

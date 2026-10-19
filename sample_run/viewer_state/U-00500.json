@@ -1,0 +1,35 @@
+{
+  "user_id": "U-00500",
+  "profile_snapshot": {
+    "user_id": "U-00500",
+    "signup_at": "2025-01-04T11:35:40.151Z",
+    "subscription_status": "active",
+    "plan_started_at": "",
+    "plan_ends_at": "2026-10-05T10:09:23.043Z",
+    "preferred_dialect": "d6",
+    "preferred_language": "en",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T05:14:10.929Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T09:08:01.492000Z",
+    "started_at": "2026-10-01T09:08:01.492000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "gune-halo-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-001149"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T09:08:01.492000Z"
+}

@@ -1,0 +1,38 @@
+{
+  "user_id": "U-03408",
+  "profile_snapshot": {
+    "user_id": "U-03408",
+    "signup_at": "2026-07-10T11:27:23.963Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-02T03:32:46.583Z",
+    "plan_ends_at": "2026-10-02T03:32:46.583Z",
+    "preferred_dialect": "d3",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T17:47:03.074Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T16:08:29.566000Z",
+    "started_at": "2026-10-01T16:08:29.566000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "dhapipa-gini-d2",
+      "molo-d2",
+      "labha-pako-d5",
+      "gubava-gihaya-d5"
+    ]
+  },
+  "decision_ids": [
+    "D-002396"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T16:08:29.566000Z"
+}

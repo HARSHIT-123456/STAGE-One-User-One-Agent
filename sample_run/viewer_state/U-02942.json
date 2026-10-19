@@ -1,0 +1,40 @@
+{
+  "user_id": "U-02942",
+  "profile_snapshot": {
+    "user_id": "U-02942",
+    "signup_at": "2026-05-15T23:56:35.421Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-16T02:34:13.672Z",
+    "plan_ends_at": "2026-10-16T02:34:13.672Z",
+    "preferred_dialect": "d5",
+    "preferred_language": "en",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T15:15:28.058Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T10:08:56.182000Z",
+    "started_at": "2026-10-01T10:08:56.182000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "bagi-baya-d4",
+      "pila-robha-d4"
+    ]
+  },
+  "decision_ids": [
+    "D-001270",
+    "D-001481",
+    "D-002055"
+  ],
+  "action_ids": [
+    "A-000345"
+  ],
+  "last_decision_at": "2026-10-01T15:02:23.110000Z"
+}

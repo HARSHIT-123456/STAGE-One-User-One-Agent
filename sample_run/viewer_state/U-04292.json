@@ -1,0 +1,39 @@
+{
+  "user_id": "U-04292",
+  "profile_snapshot": {
+    "user_id": "U-04292",
+    "signup_at": "2025-06-17T18:45:29.949Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-12T13:48:33.342Z",
+    "plan_ends_at": "2026-10-12T13:48:33.342Z",
+    "preferred_dialect": "d1",
+    "preferred_language": "hin",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-28T19:44:19.426Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T10:09:14.114000Z",
+    "started_at": "2026-10-01T10:09:14.114000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "nini-namoko-d1",
+      "hapibha-d1",
+      "hama-chudibha-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-001271"
+  ],
+  "action_ids": [
+    "A-000346"
+  ],
+  "last_decision_at": "2026-10-01T10:09:14.114000Z"
+}

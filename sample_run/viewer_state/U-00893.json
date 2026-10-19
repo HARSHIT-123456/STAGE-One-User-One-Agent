@@ -1,0 +1,37 @@
+{
+  "user_id": "U-00893",
+  "profile_snapshot": {
+    "user_id": "U-00893",
+    "signup_at": "2026-07-25T18:15:07.177Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-04T19:20:40.039Z",
+    "plan_ends_at": "2026-10-04T19:20:40.039Z",
+    "preferred_dialect": "d3",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T16:19:09.855Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T09:57:53.857000Z",
+    "started_at": "2026-10-01T09:57:53.857000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "ririgi-d3",
+      "pima-pana-d3"
+    ]
+  },
+  "decision_ids": [
+    "D-000526",
+    "D-001250"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T09:57:53.857000Z"
+}

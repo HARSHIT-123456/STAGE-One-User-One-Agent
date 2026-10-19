@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "actions_total": 715,
+    "home_page_accepted": 715,
+    "home_page_published_but_not_shown": 19,
+    "home_page_shown_personalised": 647,
+    "organic_purchases_scripted": 36
+  },
+  "policy_problem_count": 0,
+  "policy_problems_sample": []
+}

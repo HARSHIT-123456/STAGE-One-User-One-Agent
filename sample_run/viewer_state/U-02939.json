@@ -1,0 +1,37 @@
+{
+  "user_id": "U-02939",
+  "profile_snapshot": {
+    "user_id": "U-02939",
+    "signup_at": "2025-02-28T04:02:20.567Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d1",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T01:46:57.142Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T12:27:24.204000Z",
+    "started_at": "2026-10-01T12:27:24.204000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "tidha-dakachu-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-001567"
+  ],
+  "action_ids": [
+    "A-000428"
+  ],
+  "last_decision_at": "2026-10-01T12:27:24.204000Z"
+}

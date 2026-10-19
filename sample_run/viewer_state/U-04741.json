@@ -1,0 +1,37 @@
+{
+  "user_id": "U-04741",
+  "profile_snapshot": {
+    "user_id": "U-04741",
+    "signup_at": "2024-10-02T20:16:39.711Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-27T12:00:35.533Z",
+    "plan_ends_at": "2026-10-27T12:00:35.533Z",
+    "preferred_dialect": "d7",
+    "preferred_language": "en",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T07:43:14.130Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T02:19:05.832000Z",
+    "started_at": "2026-10-01T02:19:05.832000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "molo-d2",
+      "kopibha-niya-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-000157",
+    "D-001572"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T12:32:18.390000Z"
+}

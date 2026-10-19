@@ -1,0 +1,20 @@
+{
+  "user_id": "U-02693",
+  "profile_snapshot": {},
+  "active_goal": {
+    "id": "G02",
+    "name": "first_full_episode_3d",
+    "deadline": "2026-10-04T02:58:00.124000Z",
+    "started_at": "2026-10-01T02:58:00.124000Z",
+    "success_signal": "episode_completed",
+    "window_hours": 72,
+    "eligibility_reason": "No observed episode_completed event in available history.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": []
+  },
+  "decision_ids": [
+    "D-000196"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T02:58:00.124000Z"
+}

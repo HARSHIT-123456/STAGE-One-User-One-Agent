@@ -1,0 +1,37 @@
+{
+  "user_id": "U-01602",
+  "profile_snapshot": {
+    "user_id": "U-01602",
+    "signup_at": "2026-06-17T15:01:41.602Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-25T09:02:27.761Z",
+    "plan_ends_at": "2026-10-25T09:02:27.761Z",
+    "preferred_dialect": "d2",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-28T18:24:07.274Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T17:07:11.894000Z",
+    "started_at": "2026-10-01T17:07:11.894000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "teya-diguma-d2",
+      "dhapipa-gini-d2",
+      "molo-d2"
+    ]
+  },
+  "decision_ids": [
+    "D-002602"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T17:07:11.894000Z"
+}

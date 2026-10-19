@@ -1,0 +1,36 @@
+{
+  "user_id": "U-03403",
+  "profile_snapshot": {
+    "user_id": "U-03403",
+    "signup_at": "2025-02-05T12:43:41.494Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-29T05:14:02.281Z",
+    "plan_ends_at": "2026-10-29T05:14:02.281Z",
+    "preferred_dialect": "d1",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T11:14:58.035Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T12:04:30.017000Z",
+    "started_at": "2026-10-01T12:04:30.017000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "pate-kari-d3"
+    ]
+  },
+  "decision_ids": [
+    "D-001520",
+    "D-001536"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T12:11:21.008000Z"
+}

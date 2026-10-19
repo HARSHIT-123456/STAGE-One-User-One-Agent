@@ -1,0 +1,37 @@
+{
+  "user_id": "U-03967",
+  "profile_snapshot": {
+    "user_id": "U-03967",
+    "signup_at": "2025-04-17T11:33:33.091Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-12T01:20:58.593Z",
+    "plan_ends_at": "2026-10-12T01:20:58.593Z",
+    "preferred_dialect": "d2",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "ios",
+    "updated_at": "2026-09-29T10:36:00.824Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T16:24:57.251000Z",
+    "started_at": "2026-10-01T16:24:57.251000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "bhaja-moguba-d2"
+    ]
+  },
+  "decision_ids": [
+    "D-002451"
+  ],
+  "action_ids": [
+    "A-000659"
+  ],
+  "last_decision_at": "2026-10-01T16:24:57.251000Z"
+}

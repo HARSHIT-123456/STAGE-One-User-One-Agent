@@ -1,0 +1,41 @@
+{
+  "user_id": "U-00795",
+  "profile_snapshot": {
+    "user_id": "U-00795",
+    "signup_at": "2025-11-19T04:55:10.711Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-25T08:45:10.590Z",
+    "plan_ends_at": "2026-10-25T08:45:10.590Z",
+    "preferred_dialect": "d5",
+    "preferred_language": "en",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-28T20:24:50.722Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T05:59:09.405000Z",
+    "started_at": "2026-10-01T05:59:09.405000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "gubava-gihaya-d5",
+      "diti-kochu-d5",
+      "gudha-bati-d5"
+    ]
+  },
+  "decision_ids": [
+    "D-000743",
+    "D-000744",
+    "D-000959",
+    "D-002628",
+    "D-002721"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T17:54:08.997000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "user_id": "U-00741",
+  "profile_snapshot": {
+    "user_id": "U-00741",
+    "signup_at": "2026-01-21T02:27:38.839Z",
+    "subscription_status": "active",
+    "plan_started_at": "",
+    "plan_ends_at": "2026-10-03T19:49:01.444Z",
+    "preferred_dialect": "d3",
+    "preferred_language": "en",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-28T20:04:01.257Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T15:49:54.570000Z",
+    "started_at": "2026-10-01T15:49:54.570000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "digi-mone-d3",
+      "yane-tegi-d3",
+      "yatite-roloda-d3",
+      "jakasa-dapi-d3"
+    ]
+  },
+  "decision_ids": [
+    "D-002338"
+  ],
+  "action_ids": [
+    "A-000633"
+  ],
+  "last_decision_at": "2026-10-01T15:49:54.570000Z"
+}

@@ -1,0 +1,37 @@
+{
+  "user_id": "U-03792",
+  "profile_snapshot": {
+    "user_id": "U-03792",
+    "signup_at": "2025-12-13T14:02:36.266Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-27T11:09:11.275Z",
+    "plan_ends_at": "2026-10-27T11:09:11.275Z",
+    "preferred_dialect": "d1",
+    "preferred_language": "hin",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T11:05:36.705Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T06:38:30.125000Z",
+    "started_at": "2026-10-01T06:38:30.125000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "nisu-sapapa-d4"
+    ]
+  },
+  "decision_ids": [
+    "D-000815"
+  ],
+  "action_ids": [
+    "A-000208"
+  ],
+  "last_decision_at": "2026-10-01T06:38:30.125000Z"
+}

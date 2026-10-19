@@ -1,0 +1,36 @@
+{
+  "user_id": "U-04689",
+  "profile_snapshot": {
+    "user_id": "U-04689",
+    "signup_at": "2026-06-11T16:38:28.392Z",
+    "subscription_status": "active",
+    "plan_started_at": "2026-09-20T03:48:50.170Z",
+    "plan_ends_at": "2026-10-20T03:48:50.170Z",
+    "preferred_dialect": "d6",
+    "preferred_language": "en",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "true",
+    "platform": "android",
+    "updated_at": "2026-09-29T10:52:20.444Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T18:13:25.894000Z",
+    "started_at": "2026-10-01T18:13:25.894000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "rasuya-moni-d6",
+      "mopila-bani-d6"
+    ]
+  },
+  "decision_ids": [
+    "D-002747"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T18:13:25.894000Z"
+}

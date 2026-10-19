@@ -1,0 +1,35 @@
+{
+  "user_id": "U-01541",
+  "profile_snapshot": {
+    "user_id": "U-01541",
+    "signup_at": "2026-09-08T05:36:41.480Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d1",
+    "preferred_language": "en",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T15:05:54.860Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T16:26:12.718000Z",
+    "started_at": "2026-10-01T16:26:12.718000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "hate-d1"
+    ]
+  },
+  "decision_ids": [
+    "D-002457"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T16:26:12.718000Z"
+}

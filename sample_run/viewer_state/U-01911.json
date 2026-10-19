@@ -1,0 +1,34 @@
+{
+  "user_id": "U-01911",
+  "profile_snapshot": {
+    "user_id": "U-01911",
+    "signup_at": "2025-04-30T06:48:00.582Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d1",
+    "preferred_language": "hin",
+    "notifications_opt_in": "false",
+    "whatsapp_opt_in": "true",
+    "platform": "ios",
+    "updated_at": "2026-09-28T23:49:10.256Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G05",
+    "name": "first_paid_7d",
+    "deadline": "2026-10-08T09:05:44.513000Z",
+    "started_at": "2026-10-01T09:05:44.513000Z",
+    "success_signal": "purchase_completed",
+    "window_hours": 168,
+    "eligibility_reason": "No paid purchase observed and subscription status is never.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": []
+  },
+  "decision_ids": [
+    "D-001139",
+    "D-002757"
+  ],
+  "action_ids": [],
+  "last_decision_at": "2026-10-01T18:22:01.830000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "user_id": "U-00023",
+  "profile_snapshot": {
+    "user_id": "U-00023",
+    "signup_at": "2026-03-20T22:59:52.968Z",
+    "subscription_status": "never",
+    "plan_started_at": "",
+    "plan_ends_at": "",
+    "preferred_dialect": "d3",
+    "preferred_language": "en",
+    "notifications_opt_in": "true",
+    "whatsapp_opt_in": "false",
+    "platform": "android",
+    "updated_at": "2026-09-29T06:32:57.402Z",
+    "snapshot_at": "2026-09-30T00:00:00.000Z"
+  },
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T02:12:27.469000Z",
+    "started_at": "2026-10-01T02:12:27.469000Z",
+    "success_signal": "play_started",
+    "window_hours": 72,
+    "eligibility_reason": "An unfinished show/micro-drama has been inactive for at least 3 days.",
+    "rule_version": "2026-09-30",
+    "resume_content_slugs": [
+      "gula-tete-d3",
+      "lomobha-moni-d3"
+    ]
+  },
+  "decision_ids": [
+    "D-000148",
+    "D-000149",
+    "D-002149"
+  ],
+  "action_ids": [
+    "A-000056"
+  ],
+  "last_decision_at": "2026-10-01T15:08:06.699000Z"
+}
