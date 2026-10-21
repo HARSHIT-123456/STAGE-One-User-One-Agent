@@ -69,3 +69,44 @@ The scan is deterministic and rule-based, not a learned anomaly detector. It is 
 
 ## Continuous integration
 GitHub Actions runs the test suite on pushes and pull requests using Python 3.12. Run the same check locally with `python -m pytest -v`.
+
+## Automated Testing Results
+
+**Test Status: 13/13 Test Cases Passed**
+
+The project includes an automated test suite to verify core agent functionality, decision-making, safety controls, and auditability.
+
+The latest previously recorded test run completed successfully with **13 tests passed and 0 failures**.
+
+Run the tests locally:
+
+```bash
+python -m pytest -v
+```
+
+### Test coverage
+
+The test suite checks the following areas:
+
+1. Data loading and input validation.
+2. Event deduplication and data consistency.
+3. Measurable goal selection.
+4. Agent decision-making and abstention behavior.
+5. Action verification before publication.
+6. Holdout-group protection.
+7. Safe handling of unsupported model claims.
+8. Timeout and malformed model-output handling.
+9. Decision and action audit records.
+10. Duplicate and orphan action detection.
+11. Outcome processing and reporting.
+12. Simulator policy and safety checks.
+13. End-to-end behavior across the tested scenarios.
+
+*Note: These are the project's test coverage areas, not a verified one-to-one mapping to the 13 individual test functions. Refer to the actual test files for the exact mapping.*
+
+### Continuous Integration
+
+GitHub Actions is configured to run the automated test suite on pushes and pull requests using Python 3.12. This helps detect regressions when the code changes.
+
+Passing tests demonstrate that the tested scenarios behave as expected; they do not establish production readiness or prove real-world impact.
+
