@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Generated replay outputs (keep curated sample reports only if intentionally tracked)
+# sample_run/viewer_state/

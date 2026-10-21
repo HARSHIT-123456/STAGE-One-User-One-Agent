@@ -14,6 +14,8 @@ from .model_provider import ReplayFaultProvider
 
 UTC = timezone.utc
 IST = ZoneInfo('Asia/Kolkata')
+# Dataset rule correction: G03 changed from app_open to play_started at this exact UTC instant.
+G03_RULE_CORRECTION_AT = datetime(2026, 10, 1, 8, 30, tzinfo=UTC)
 
 def csv_rows(path):
     with open(path, newline='', encoding='utf-8-sig') as f:
@@ -28,17 +30,44 @@ def event_name(e): return str(e.get('event', '')).lower()
 def uid(e): return str(e.get('user_id', ''))
 def evtime(e): return dt(e.get('received_at') or e.get('deliver_at') or e.get('at'))
 def dedupe_events(rows):
-    by = {}
-    for e in rows:
-        k=e.get('event_id')
-        if not k: continue
-        old=by.get(k)
-        if old is None or str(e.get('received_at','')) < str(old.get('received_at','')): by[k]=e
-    return list(by.values())
+    """Deduplicate by event_id; for ID-less rows, remove only exact payload copies.
+
+    When an event_id is reused with conflicting payloads, retain the copy with the
+    earliest non-empty server received_at timestamp for deterministic replay. Rows
+    without event IDs are not silently discarded: distinct payloads remain available.
+    """
+    by_key = {}
+    for row in rows:
+        event_id = str(row.get('event_id') or '').strip()
+        if event_id:
+            key = ('event_id', event_id)
+        else:
+            fingerprint = json.dumps(row, sort_keys=True, separators=(',', ':'), ensure_ascii=False, default=str)
+            key = ('payload', fingerprint)
+        previous = by_key.get(key)
+        if previous is None:
+            by_key[key] = row
+            continue
+        old_time = str(previous.get('received_at') or '9999')
+        new_time = str(row.get('received_at') or '9999')
+        if new_time < old_time:
+            by_key[key] = row
+    return sorted(by_key.values(), key=lambda row: (str(row.get('received_at') or ''), str(row.get('event_id') or '')))
 def true_bool(v): return str(v).strip().lower() in ('true','1','yes')
 def ist_day(value):
     d=dt(value)
     return d.astimezone(IST).date().isoformat() if d else None
+
+def g03_success_signal(started_at, deadline, original_signal='app_open'):
+    """Resolve G03's success signal using the correction effective at 08:30 UTC.
+
+    The correction applies only when the goal was already open before the correction
+    and its deadline is after it. All inputs are normalized to UTC by ``dt``.
+    """
+    start, end = dt(started_at), dt(deadline)
+    if start and end and start < G03_RULE_CORRECTION_AT < end:
+        return 'play_started'
+    return original_signal
 
 def estimate_trigger_age_seconds(trigger):
     # Phone timestamps may be skewed; sent_at - occurred_at approximates offline buffering.
@@ -322,6 +351,8 @@ def run_pack_replay(pack_root, out_dir):
           'rows':proposed.get('rows',[]) if proposed and action!='NO_ACTION' else [],
           'confidence':0.72 if goal and proposed else 0.35 if goal else 0.15,
           'confidence_reason':'Heuristic confidence reflects explicit eligibility and independent catalogue checks; it is not a calibrated probability.',
+          'arm':arm,
+          'model_verification':{'mode':'deterministic_policy_with_independent_verifier','proposal_used_as_evidence':False,'fault_injected':bool(fault),'fallback':'deterministic_policy' if fault else 'not_needed','verification_checks':checks},
           'evidence':[{'source':'profiles_snapshot.csv','fact':'signup/subscription/consent baseline','observed_at':profile.get('updated_at'),'freshness':'daily snapshot, potentially stale'},
                       {'source':'data/events.jsonl + replay/live_events.jsonl','fact':'viewer event history','freshness':'deduplicated and bounded by received_at at decision time'},
                       {'source':'data/catalogue.csv','fact':'dialect, availability and content_slug','freshness':'checked at publish time'}],
@@ -371,8 +402,7 @@ def judge_outcomes(pack_root, out_dir, sim_out_dir):
             if goal_id=='G01': ok=name=='play_started'
             elif goal_id=='G02': ok=name=='episode_completed'
             elif goal_id=='G03':
-                correction=dt('2026-10-01T08:30:00Z')
-                effective_signal='play_started' if start<correction and deadline>correction else g.get('success_signal','play_started')
+                effective_signal = g03_success_signal(start, deadline, g.get('success_signal', 'play_started'))
                 ok=name==effective_signal and ist_day(t)!=ist_day(start)
             elif goal_id in ('G04','G05'): ok=name=='purchase_completed' and not true_bool(props.get('is_trial',False))
             elif goal_id=='G06': ok=name=='purchase_completed' and not true_bool(props.get('is_trial',False))

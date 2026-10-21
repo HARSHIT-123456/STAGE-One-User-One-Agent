@@ -1,5 +1,6 @@
 from pathlib import Path
 import csv
+import json
 from .utils import read_jsonl
 
 def read_csv_rows(path):
@@ -10,25 +11,28 @@ def read_csv_rows(path):
         return list(csv.DictReader(f))
 
 def deduplicate_events(events):
-    # Keep the copy with the earliest trustworthy server received_at for stable replay ordering.
-    # Duplicate payload conflicts are retained in duplicate audit metadata by the caller if desired.
-    by_id = {}
-    no_id = []
+    """Deduplicate IDs and exact copies while preserving distinct ID-less events.
+
+    For a reused event_id, retain the row with the earliest server received_at
+    timestamp. For rows without IDs, only identical serialized payloads are merged.
+    """
+    unique = {}
     for event in events:
-        event_id = event.get("event_id")
-        if not event_id:
-            no_id.append(event)
-            continue
-        previous = by_id.get(str(event_id))
-        if previous is None:
-            by_id[str(event_id)] = event
+        event_id = str(event.get("event_id") or "").strip()
+        if event_id:
+            key = ("event_id", event_id)
         else:
-            old_time = str(previous.get("received_at") or "9999")
-            new_time = str(event.get("received_at") or "9999")
-            if new_time < old_time:
-                by_id[str(event_id)] = event
-    result = list(by_id.values()) + no_id
-    return sorted(result, key=lambda e: str(e.get("received_at") or ""))
+            fingerprint = json.dumps(event, sort_keys=True, separators=(",", ":"), ensure_ascii=False, default=str)
+            key = ("payload", fingerprint)
+        previous = unique.get(key)
+        if previous is None:
+            unique[key] = event
+            continue
+        old_time = str(previous.get("received_at") or "9999")
+        new_time = str(event.get("received_at") or "9999")
+        if new_time < old_time:
+            unique[key] = event
+    return sorted(unique.values(), key=lambda event: (str(event.get("received_at") or ""), str(event.get("event_id") or "")))
 
 def load_pack(data_dir, replay_dir=None):
     data_dir = Path(data_dir)

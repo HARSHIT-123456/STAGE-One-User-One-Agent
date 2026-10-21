@@ -38,8 +38,8 @@ The command runs the supplied trigger replay, writes simulator actions in the re
 
 ## Design choices
 - The current app dialect from the trigger is preferred over the stale profile dialect and campaign link; conflicts are recorded.
-- Profile rows are resolved by latest `updated_at`; event evidence is deduplicated by `event_id` and bounded by server receipt time.
-- The agent chooses one measurable goal per viewer. Goals G10 and G11 are not selected because the supplied event stream does not contain a reliable success event for them. G03 uses the corrected `play_started` success signal.
+- Profile rows are resolved by latest `updated_at`; event evidence is deduplicated by `event_id` and bounded by server receipt time. Duplicate IDs retain the earliest server `received_at`; ID-less events are preserved unless their complete payload is an exact duplicate.
+- The agent chooses one measurable goal per viewer. Goals G10 and G11 are not selected because the supplied event stream does not contain a reliable success event for them. G03's rule correction is applied at **2026-10-01 08:30:00 UTC** to goals already open across that instant; timezone-aware boundary tests cover this behavior.
 - Only personalized home pages are published in this version. Messages are deliberately not used, avoiding consent, quiet-hours, template, and daily-frequency risks while retaining a real intervention.
 - A page is built from available titles in the active app dialect. Catalogue descriptions are treated as untrusted data, never instructions.
 - The independent verifier checks holdout assignment, dialect, availability, row size, and duplicate content slugs.
@@ -49,62 +49,23 @@ The command runs the supplied trigger replay, writes simulator actions in the re
 ## Important limitations
 This is a practical take-home implementation, not a production-ready lifecycle platform. See `KNOWN_LIMITATIONS.md` for exact limitations. Review the source and generated outputs before submission; you remain responsible for the code and for explaining the design in the technical discussion.
 
+## Agent audit and pattern scan (new)
+Every full pack replay now writes two additional artifacts:
+- `pattern_scan_report.json` — machine-readable, three-pass audit.
+- `pattern_scan_report.md` — human-readable explanation for a reviewer.
 
+The scanner performs three passes:
+1. **Input loader inspection:** confirms required data/config/replay files exist and reports their sizes.
+2. **Agent/model verification inspection:** summarizes decisions and action types, missing audit fields, injected model faults, verifier checks, and any model claims incorrectly accepted as evidence. The model proposal is not treated as evidence; deterministic rules and independent checks remain authoritative.
+3. **Output and zero-count inspection:** checks action/outcome counts, duplicate or orphan action IDs, holdout violations, simulator policy diagnostics, and explicitly explains zero counts. A zero count is not automatically an error: zero policy violations is good, while zero decisions may indicate an empty run.
 
-# STAGE-One-User-One-Agent
-
-A Python-based prototype of a goal-directed AI agent for an OTT streaming platform.
-
-## Overview
-
-The project processes viewer events and available evidence to select measurable goals, decide whether to intervene, validate actions against policy constraints, and evaluate outcomes using a randomized holdout group.
-
-## Key Features
-
-- Viewer goal selection and decision-making
-- Evidence conflict resolution
-- Safe action validation and no-action decisions
-- Duplicate and late event handling
-- Dependency-failure handling
-- Event replay and simulated action evaluation
-- Randomized holdout and intention-to-treat impact analysis
-- Automated tests
-
-## Technology Stack
-
-- Python
-- pytest
-- JSONL event data and JSON reports
-- Command-line execution
-
-## Run the Project
-
-Install dependencies:
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-Run the simulation:
+Run the complete pipeline, including the scanner:
 
 ```bash
 python -m src.main --pack-root . --out-dir sample_run --simulate
 ```
 
-Run the tests:
+The scan is deterministic and rule-based, not a learned anomaly detector. It is intended to make agent behavior and verification easier to inspect during code review.
 
-```bash
-python -m pytest -v
-```
-
-## Current Test Results
-
-The current test suite passes all 8 tests.
-
-The sample simulation produced 2,769 decisions, 715 published homepage actions, and zero detected policy problems in the simulator quality report.
-
-The estimated agent-versus-holdout success-rate difference was +0.94 percentage points, with an approximate 95% confidence interval of -1.80 to +3.67 percentage points. This is a single synthetic simulation, not evidence of a proven production impact.
-
-## Limitations
-
-This is a prototype evaluated using the supplied data and simulator. Results should not be interpreted as proof of real-world business impact.
+## Continuous integration
+GitHub Actions runs the test suite on pushes and pull requests using Python 3.12. Run the same check locally with `python -m pytest -v`.

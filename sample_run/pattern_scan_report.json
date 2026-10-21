@@ -1,0 +1,100 @@
+{
+  "scanner": "three_pass_pattern_scan",
+  "scanner_version": "1.0.0",
+  "description": "Pass 1 checks input-loader files; Pass 2 inspects decision, model-fault and verifier logs; Pass 3 checks action/outcome counts and interprets zero counts.",
+  "passes": {
+    "1_input_loader": {
+      "required_files": 9,
+      "missing_files": [],
+      "file_sizes_bytes": {
+        "data/events.jsonl": 55954776,
+        "data/profiles_snapshot.csv": 623783,
+        "data/catalogue.csv": 374229,
+        "data/episodes.csv": 1065479,
+        "replay/arms.csv": 79987,
+        "replay/triggers.jsonl": 1123250,
+        "replay/live_events.jsonl": 263700,
+        "replay/control_events.jsonl": 992,
+        "config/goals.json": 5178
+      }
+    },
+    "2_agent_and_model_verification": {
+      "decision_count": 2769,
+      "status_counts": {
+        "PUBLISHED": 715,
+        "ABSTAINED": 2054
+      },
+      "action_counts": {
+        "HOME_PAGE": 715,
+        "NO_ACTION": 2054
+      },
+      "verification_failure_counts": {
+        "holdout_zero_action": 1325
+      },
+      "expected_guardrail_counts": {
+        "holdout_zero_action": 1325
+      },
+      "unexpected_verification_failure_counts": {},
+      "missing_decision_fields": [],
+      "model_fault_count": 5,
+      "model_faults_sample": [
+        {
+          "decision_id": "D-000438",
+          "fault": "unsupported_claim",
+          "handled_safely": true,
+          "proposal_accepted_as_evidence": false
+        },
+        {
+          "decision_id": "D-000576",
+          "fault": "unsupported_claim",
+          "handled_safely": true,
+          "proposal_accepted_as_evidence": false
+        },
+        {
+          "decision_id": "D-000900",
+          "fault": "unsupported_claim",
+          "handled_safely": true,
+          "proposal_accepted_as_evidence": false
+        },
+        {
+          "decision_id": "D-001385",
+          "fault": "timeout",
+          "handled_safely": true,
+          "proposal_accepted_as_evidence": false
+        },
+        {
+          "decision_id": "D-001404",
+          "fault": "malformed_output",
+          "handled_safely": true,
+          "proposal_accepted_as_evidence": false
+        }
+      ],
+      "model_claims_accepted_as_evidence": 0,
+      "holdout_published_decision_ids": [],
+      "published_decisions": 715
+    },
+    "3_outputs_and_zero_log_inspection": {
+      "action_log_count": 715,
+      "outcome_log_count": 1504,
+      "duplicate_action_ids": [],
+      "orphan_actions": [],
+      "simulator_policy_problem_count": 0,
+      "zero_checks": {
+        "zero_input_files_missing": true,
+        "zero_decisions": false,
+        "zero_published_actions": false,
+        "zero_model_faults": false,
+        "zero_unexpected_verification_failures": true,
+        "zero_simulator_policy_problems": true,
+        "zero_outcome_rows": false
+      }
+    }
+  },
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "NO_AUDIT_FINDINGS",
+      "count": 0
+    }
+  ]
+}

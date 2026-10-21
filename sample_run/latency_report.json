@@ -5,8 +5,8 @@
   "published_actions": 715,
   "agent_arm_users": 2513,
   "holdout_users": 2487,
-  "max_processing_ms": 11,
-  "p95_processing_ms": 3,
+  "max_processing_ms": 39,
+  "p95_processing_ms": 6,
   "within_60_seconds": true,
   "model_fault_triggers": 5,
   "control_dependency_windows": [

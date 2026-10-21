@@ -11,6 +11,30 @@ def test_deduplicate_event_id():
     out = deduplicate_events(events)
     assert len([e for e in out if e["event_id"]=="x"]) == 1
 
+def test_deduplication_keeps_distinct_idless_events_and_removes_exact_copies():
+    from src.data_loader import deduplicate_events
+    rows = [
+        {"user_id": "u1", "event": "app_open", "received_at": "2026-10-01T08:30:00Z"},
+        {"user_id": "u1", "event": "app_open", "received_at": "2026-10-01T08:30:00Z"},
+        {"user_id": "u1", "event": "play_started", "received_at": "2026-10-01T08:31:00Z"},
+    ]
+    result = deduplicate_events(rows)
+    assert len(result) == 2
+    assert {row["event"] for row in result} == {"app_open", "play_started"}
+
+
+def test_replay_deduplication_preserves_idless_rows_and_earliest_duplicate():
+    from src.real_replay import dedupe_events
+    rows = [
+        {"event_id": "e1", "received_at": "2026-10-01T08:31:00Z", "event": "late"},
+        {"event_id": "e1", "received_at": "2026-10-01T08:30:00Z", "event": "early"},
+        {"user_id": "u1", "event": "app_open", "received_at": "2026-10-01T08:30:00Z"},
+    ]
+    result = dedupe_events(rows)
+    assert len(result) == 2
+    assert next(row for row in result if row.get("event_id") == "e1")["event"] == "early"
+    assert any(row.get("event") == "app_open" for row in result)
+
 def test_app_dialect_conflict_is_visible():
     profiles = [{"viewer_id":"u1","dialect":"d1","snapshot_date":"2026-01-01"}]
     events = [{"viewer_id":"u1","event_id":"e1","app_dialect":"d3","received_at":"2026-01-02T00:00:00Z"}]
@@ -85,3 +109,64 @@ def test_corrected_goal_rule_is_explicit():
     corrected = eligibility_goal(profile, history, [], {}, now, {"version":"test"}, {'G03'})
     assert corrected['id'] == 'G03'
     assert corrected['success_signal'] == 'play_started'
+
+def test_pattern_scan_reports_three_passes_and_zero_interpretation(tmp_path):
+    import json
+    from src.pattern_scan import scan_run
+    root = tmp_path / 'pack'
+    out = tmp_path / 'run'
+    (root / 'data').mkdir(parents=True)
+    (root / 'replay').mkdir()
+    (root / 'config').mkdir()
+    for name in ('data/events.jsonl', 'data/profiles_snapshot.csv', 'data/catalogue.csv',
+                 'data/episodes.csv', 'replay/arms.csv', 'replay/triggers.jsonl',
+                 'replay/live_events.jsonl', 'replay/control_events.jsonl', 'config/goals.json'):
+        (root / name).write_text('', encoding='utf-8')
+    out.mkdir()
+    (out / 'decisions.jsonl').write_text(json.dumps({
+        'decision_id':'D-1','user_id':'u1','trigger':{},'action':'NO_ACTION','status':'ABSTAINED',
+        'checks':{'passed':[],'failed':[]},'arm':'agent',
+        'model_verification':{'proposal_used_as_evidence':False}
+    }) + '\n', encoding='utf-8')
+    (out / 'actions.jsonl').write_text('', encoding='utf-8')
+    (out / 'outcomes.jsonl').write_text('', encoding='utf-8')
+    report = scan_run(root, out)
+    assert set(report['passes']) == {'1_input_loader','2_agent_and_model_verification','3_outputs_and_zero_log_inspection'}
+    assert report['passes']['2_agent_and_model_verification']['decision_count'] == 1
+    assert report['passes']['3_outputs_and_zero_log_inspection']['zero_checks']['zero_decisions'] is False
+    assert (out / 'pattern_scan_report.md').exists()
+
+
+def test_pattern_scan_detects_model_claim_accepted_as_evidence(tmp_path):
+    import json
+    from src.pattern_scan import scan_run
+    root = tmp_path / 'pack'; out = tmp_path / 'run'
+    (root / 'data').mkdir(parents=True); (root / 'replay').mkdir(); (root / 'config').mkdir(); out.mkdir()
+    for name in ('data/events.jsonl', 'data/profiles_snapshot.csv', 'data/catalogue.csv',
+                 'data/episodes.csv', 'replay/arms.csv', 'replay/triggers.jsonl',
+                 'replay/live_events.jsonl', 'replay/control_events.jsonl', 'config/goals.json'):
+        (root / name).write_text('', encoding='utf-8')
+    row={'decision_id':'D-1','user_id':'u1','trigger':{},'action':'NO_ACTION','status':'ABSTAINED',
+         'checks':{'passed':[],'failed':[]},'model_fault':{'fault':'unsupported_claim','proposal_accepted_as_evidence':True}}
+    (out/'decisions.jsonl').write_text(json.dumps(row)+'\n',encoding='utf-8')
+    (out/'actions.jsonl').write_text('',encoding='utf-8')
+    (out/'outcomes.jsonl').write_text('',encoding='utf-8')
+    report=scan_run(root,out)
+    assert any(f['code']=='MODEL_CLAIM_USED_AS_EVIDENCE' for f in report['findings'])
+
+
+def test_g03_rule_correction_uses_exact_0830_utc_instant():
+    from src.real_replay import G03_RULE_CORRECTION_AT, g03_success_signal
+    from datetime import timedelta
+
+    correction = G03_RULE_CORRECTION_AT
+    assert correction.isoformat() == "2026-10-01T08:30:00+00:00"
+    # A goal open across the correction receives the corrected success signal.
+    assert g03_success_signal("2026-10-01T08:00:00Z", "2026-10-01T09:00:00Z") == "play_started"
+    # Equivalent offset timestamps are normalized to the same UTC instant.
+    assert g03_success_signal("2026-10-01T10:00:00+02:00", "2026-10-01T11:00:00+02:00") == "play_started"
+    # Goals starting at or ending exactly on the correction are not considered open across it.
+    assert g03_success_signal(correction, correction + timedelta(hours=1), "app_open") == "app_open"
+    assert g03_success_signal(correction - timedelta(hours=1), correction, "app_open") == "app_open"
+    # Goals fully after the correction retain their configured signal.
+    assert g03_success_signal(correction + timedelta(minutes=1), correction + timedelta(hours=1), "play_started") == "play_started"

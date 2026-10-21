@@ -2,6 +2,7 @@ import argparse, json, subprocess, sys
 from pathlib import Path
 from .replay import run_demo
 from .real_replay import run_pack_replay, judge_outcomes
+from .pattern_scan import scan_run
 
 def main():
     p=argparse.ArgumentParser(description='One User, One Agent: real supplied-pack replay')
@@ -33,5 +34,7 @@ def main():
                 'See `decisions.jsonl`, `actions.jsonl`, `outcomes.jsonl`, `latency_report.json`, `impact_report.md`, '
                 '`simulator_quality_report.json`, and `viewer_state/` for audit details.\n\n'
                 '**Caution:** this is one synthetic simulator seed; its result is not a production causal claim.\n',encoding='utf-8')
+    if not a.demo:
+        result['pattern_scan'] = scan_run(a.pack_root, a.out_dir)
     print(json.dumps(result,indent=2,default=str))
 if __name__=='__main__': main()
